@@ -12,7 +12,8 @@
   },
   "scripts": {
     "test": "playwright test",
-    "build": "node build"
+    "build": "node build/build",
+    "deploy": "node build/deploy"
   },
   "dependencies": {
     "rambda": "^9.2.1",
