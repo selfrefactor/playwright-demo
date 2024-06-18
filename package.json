@@ -10,7 +10,12 @@
     "@playwright/test": "^1.43.0",
     "@types/node": "^20.12.5"
   },
-	"scripts": {
-		"test": "playwright test"
-	}
+  "scripts": {
+    "test": "playwright test",
+    "build": "node build"
+  },
+  "dependencies": {
+    "rambda": "^9.2.1",
+    "typescript": "^5.4.5"
+  }
 }
